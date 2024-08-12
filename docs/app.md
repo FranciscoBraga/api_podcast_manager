@@ -19,12 +19,29 @@ Podcasts  feitos em video.
 ### Como vou implementar:
     Vou retornar em uma api rest o nome do podcast, nome do episódio, imagem de capa, link
 
+    GET: retornar uma lista  de episódios
 
+response:
 ```js
     {
-        podcastName:"flow"
-        episode:"TECNOLOGIA E IA [+ FABIO AKITA]"
-        cover:"https://i.ytimg.com/vi/--slRywdonM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBQtE-YIBazTwDCtTjCpEW2VKDO4g%22"
+        "podcastName":"flow",
+        "episode":"TECNOLOGIA E IA [+ FABIO AKITA]",
+        "videoID":"--slRywdonM&t=219s",
+        "categories":[
+            "saúde",
+            "esporte",
+            "bodybuilder"
+        ] 
+    },
+     {
+        "podcastName":"flow",
+        "episode":"TECNOLOGIA E IA [+ FABIO AKITA]",
+        "videoID":"u78AkEhOqmM",
+        "categories":[
+            "saúde",
+            "esporte",
+            "bodybuilder"
+        ] 
     }
 ```
 
