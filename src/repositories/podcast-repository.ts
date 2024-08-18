@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'fs';
+import path from 'path';
 import { PodcastModel } from '../model/podcast-model';
 
 const pathDate = path.join(__dirname,'../repositories/podcast.json');
@@ -14,6 +14,6 @@ export const repositoryPodcast = async (podcastName?:string):Promise<PodcastMode
             (podcast:PodcastModel)=> podcast.podcastName === podcastName
         );
     }
-
+    
     return jsonFile;
 }
