@@ -84,5 +84,3 @@ Aqui está a seção de tecnologias utilizadas no seu README, com links em Markd
 ## Contribuição
 
 Sinta-se à vontade para abrir issues e enviar pull requests para novas funcionalidades ou correções de bugs.
-
--
